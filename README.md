@@ -1,4 +1,4 @@
-# certifier-io
+# Certifier
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,147 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-certifier-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://certifier.io/
+Certifier is the leading software to create, issue, and verify certificates in bulk. An AI‑powered platform for managing digital certificates, credentials, and badges. It offers templates, mass email delivery, and a user‑friendly interface for organizations to automate credential issuance and verification at scale.
+
+**Areas:** Company · Certificate · AI · Automation · Credentials
+
+## Certifier on APIs.io
+
+Everything profiled for Certifier is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/certifier-io/](https://apis.io/providers/certifier-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Certifier Credential Interactions API](https://apis.io/apis/certifier-io/certifier-io-credential-interactions-api/) — Endpoints for tracking and managing credential interaction events
+- [Certifier Credential Templates API](https://apis.io/apis/certifier-io/certifier-io-credential-templates-api/) — Endpoints for managing credential templates (groups)
+- [Certifier Credentials API](https://apis.io/apis/certifier-io/certifier-io-credentials-api/) — Endpoints for creating, managing, issuing, and sending credentials
+- [Certifier Design Templates API](https://apis.io/apis/certifier-io/certifier-io-design-templates-api/) — Endpoints for managing certificate and badge design templates
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Certifier Io Webhooks](https://apis.io/asyncapis/certifier-io/certifier-io-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Certifier Io Agentic Access](https://apis.io/agentic-access/certifier-io/certifier-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateCredential](https://apis.io/schemas/certifier-io/certifier-io-create-credential/)
+- [CreateIssueSendCredential](https://apis.io/schemas/certifier-io/certifier-io-create-issue-send-credential/)
+- [Credential](https://apis.io/schemas/certifier-io/certifier-io-credential/)
+- [CredentialInteraction](https://apis.io/schemas/certifier-io/certifier-io-credential-interaction/)
+- [Group](https://apis.io/schemas/certifier-io/certifier-io-group/)
+- [UpdateCredential](https://apis.io/schemas/certifier-io/certifier-io-update-credential/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Certifier Io Context](https://apis.io/jsonld/certifier-io/certifier-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Certifier API Rules](https://apis.io/rules/certifier-io/certifier-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Certifier Io Authentication](https://apis.io/security/certifier-io/certifier-io-authentication/)
+- [Certifier Io Domain Security](https://apis.io/security/certifier-io/certifier-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Certifier Io Plans Pricing](https://apis.io/plans/certifier-io/certifier-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Certifier Io Rate Limits](https://apis.io/rate-limits/certifier-io/certifier-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://certifier.io/)
+- [Documentation](https://developers.certifier.io/)
+- [Getting started](https://developers.certifier.io/docs/api-reference/quickstart)
+- [API reference](https://developers.certifier.io/docs/api-reference)
+- [Pricing](https://certifier.io/pricing)
+- [Sign up](https://app.certifier.io/sign-up)
+- [Support](https://support.certifier.io/en/)
+- [Changelog](https://certifier.io/changelog)
+- [Blog](https://certifier.io/blog)
+- [Terms of service](https://certifier.io/terms)
+- [Privacy policy](https://certifier.io/privacy)
+- [Status](https://status.certifier.io/)
+
+## API Evangelist rating
+
+**Kin Score 69.0** — exemplar · rubric 0.25.0 · scored 2026-11-03
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 69.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 68.9 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 61.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/certifier-io/](https://apis.io/providers/certifier-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Certifier: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/certifier-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
